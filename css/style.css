@@ -26,14 +26,14 @@ body:before {
 	z-index: -2;
 }
 
-@font-face {
+/*@font-face {
 	font-family: 'create';
 	src: url(../fonts/create.otf);
-}
+}*/
 
 @font-face {
-	font-family: 'createe';
-	src: url(../fonts/createe.ttf) ;
+	font-family: 'subs';
+	src: url(../fonts/subs.ttf);
 }
 
 .sun {
@@ -59,7 +59,7 @@ body:before {
 	line-height: 200px;
 	font-size: 63px;
 	text-align: center;
-	font-family: createe;
+	font-family: create;
 	color: #333333;
 }
 
@@ -92,7 +92,7 @@ body:before {
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-family: createe;
+	font-family: subs;
 }
 
 #repeat,
@@ -140,7 +140,7 @@ body:before {
 #yuan {
 	padding-left: 4%;
 	border-radius: 50px;
-	font-family: createe;
+	font-family: subs;
 }
 
 .sexRadio {
@@ -185,7 +185,7 @@ body:before {
 	border-radius: 30px;
 	padding-left: 4%;
 	background-color: white;
-	font-family: createe;
+	font-family: subs;
 	border: 0px;
 	outline: none;
 }
@@ -237,7 +237,7 @@ select:invalid {
 	font-size: 35px;
 	padding-left: 20px;
 	padding-top: 20px;
-	font-family: createe;
+	font-family: subs;
 	border: 0px;
 	outline: none;
 }
@@ -273,7 +273,7 @@ select:invalid {
 	font-size: 50px;
 	border-radius: 50px;
 	box-shadow: 0px 7px 25px #4c6186;
-	font-family: sub;
+	font-family: subs;
 	color: white;
 }
 
