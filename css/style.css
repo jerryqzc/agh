@@ -31,7 +31,21 @@ body:before {
 	src: url(../fonts/create.otf);
 }
 
+@font-face {
+	font-family: 'subs';
+	src: url('../fonts/subs.ttf');
+}
 
+/*font-family: '字体名称';
+          src: url('../font/字体名称.eot');
+          src:
+            url('../font/字体名称.eot?#font-spider') format('embedded-opentype'),
+            url('../font/字体名称.woff2') format('woff2'),
+            url('../font/字体名称.woff') format('woff'),
+            url('../font/字体名称.ttf') format('truetype'),
+            url('../font/字体名称.svg') format('svg');
+          font-weight: normal;
+          font-style: normal;*/
 
 .sun {
 	width: 20%;
