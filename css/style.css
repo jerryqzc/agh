@@ -33,7 +33,15 @@ body:before {
 
 @font-face {
 	font-family: 'subs';
-	src: url('../fonts/subs.ttf');
+	src: url('../fonts/subs.eot');
+	src:
+            url('../fonts/subs.eot?#font-spider') format('embedded-opentype'),
+            url('../fonts/subs.woff2') format('woff2'),
+            url('../fonts/subs.woff') format('woff'),
+            url('../fonts/subs.ttf') format('truetype'),
+            url('../fonts/subs.svg') format('svg');
+          font-weight: normal;
+          font-style: normal;
 }
 
 /*font-family: '字体名称';
