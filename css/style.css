@@ -26,10 +26,10 @@ body:before {
 	z-index: -2;
 }
 
-/*@font-face {
+@font-face {
 	font-family: 'create';
 	src: url(../fonts/create.otf);
-}*/
+}
 
 @font-face {
 	font-family: 'subs';
@@ -59,7 +59,7 @@ body:before {
 	line-height: 200px;
 	font-size: 63px;
 	text-align: center;
-	font-family: subs;
+	font-family: create;
 	color: #333333;
 }
 
